@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+        .box{
+            background-color: #fffe23;
+            width: 300px;
+            height: 300px;
+            padding: 10px;
+
+            /* border-radius */
+            border-radius: 25%;
+
+            /* overflow */
+            overflow: scroll;
+
+            /* opacity */
+            /* opacity: 0.5; */
+
+            /* display: none 아예 없애기 */
+        }
+        .item{
+            font-family: 'Nanum Pen Script', cursive;
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+            padding: 50px;
+            box-sizing: border-box;
+            border-radius: 25%;
+            overflow: scroll;
+
+            /* word-break */
+            word-break: break-all; 
+            /* break-word */
+
+            /* line-height */
+            line-height: 30px;
+
+            /* cursor */
+            cursor:help;
+
+            /* box-shadow */
+            box-shadow:4px 5px 15px 13px beige;
+
+        }
+
+        @media screen  and (max-width: 700px){
+            .item{
+                
+                widows: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class ="box">
+        <div class ="item">ssgjhghhosdijhfwhofhsihfchisisibvibiwhidhioia</div>
+        <div class ="item">ss</div>
+        <div class ="item">ss</div>
+        <div class ="item">ss</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상 선택자</title>
+    <style>
+        .google_container{
+            font-size: 50px;
+            background-color: azure;
+        }
+        .google_container:hover{
+            background-color: red;
+        }
+        .google{
+            color: black;
+            text-decoration: none;
+        }
+        .google:active{
+            font-size: 100px;
+            color: blue;
+        }
+        /* 가상요소 */
+        .box:nth-child(3){
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class = "google_container">
+        <a href="https://google.com" class ="google">google 바로가기</a>
+    </div>
+    <h1 class="box">BOX</h1>
+    <h1 class="box">BOX</h1>
+    <h1 class="box">BOX</h1>
+    <h1 class="box">BOX</h1>
+    <h1 class="box">BOX</h1>
+</body>
+</html>

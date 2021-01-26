@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyLove</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <a href="./index.html"><br><h1>내가 좋아하는 것들</h1></a>
+    </header>
+    
+    <main>
+        <div id = "grid">
+            <ol>
+                <a href = "./Movie.html"> <li>Movie</li></a>
+                <a href = "./Youtube.html"> <li>Youtube</li></a>
+                <a href ="./MilkTea.html"><li>MilkTea</li></a>
+                <a href="./Book.html"><li>Book</li></a>
+            </ol>
+            <div id = "article">
+                <h2>Welcome!</h2>
+                <div>내가 좋아하는 것들을 소개!</div>
+                <div style="float: center;"><img src="./images/Wow2.png" alt = "wow" width = "300px" border=0 hspace="10" vspace="10"></div>
+            </div>
+        </div>
+    
+        <p style= "margin-top:300px;">
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                /*
+                var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://mylove-1.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </p>
+        <style>
+            footer {
+                    position:absolute;
+                    bottom:0;
+                    width:100%;
+                    height:35px;   
+                    background:#ccc;
+                }
+        </style>
+        <footer>@Copyright 2021 Lee- Ye Ryung</footer>
+    </main>
+</body>
+</html>
